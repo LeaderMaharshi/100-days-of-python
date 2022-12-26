@@ -1,3 +1,6 @@
+#Hangan game
+
+# solution
 #Step 5
 
 import random
