@@ -3,9 +3,6 @@ from game_data import data
 import random
 
 
-
-
-
 def get_random_account():
     """Get data from random account"""
     return random.choice(data)
