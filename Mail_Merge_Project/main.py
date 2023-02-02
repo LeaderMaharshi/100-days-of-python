@@ -17,7 +17,7 @@ with open(r"C:\Users\Leader Maharshi\Desktop\python_100_days\Mail_Merge_Project\
     for name in names:
         stripped_name = name.strip()
         new_letter = letter_contents.replace(PLACEHOLDER, stripped_name)
-        with open(r'./Output/ReadyToSend', stripped_name +'.txt') as completed_letter:
+        with open(f'Mail_Merge_Project/Output/ReadyToSend/{stripped_name}.txt', mode="w") as completed_letter:
             completed_letter.write(new_letter)
      
      
